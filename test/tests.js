@@ -58,6 +58,8 @@ describe('Create Todo Item', function() {
   });
 });
 
+setTimeout (e => {
+
 describe('Update Todo Item', function() {
   var location;
 
@@ -82,6 +84,8 @@ describe('Update Todo Item', function() {
     return del(url);
   });
 });
+
+}, 500);
 
 describe('Delete Todo Item', function() {
   var location;
